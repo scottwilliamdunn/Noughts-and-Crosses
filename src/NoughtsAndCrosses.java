@@ -313,8 +313,10 @@ public class NoughtsAndCrosses {
     public void gameSetup() {
         boolean opponentChosen = false;
         int input;
+        System.out.println("Welcome to Scott's noughts and crosses game!");
 
         while (!opponentChosen) {
+
             System.out.println("1: VS Player    2: VS Computer");
             input = userInput();
             switch (input) {
